@@ -1,0 +1,6 @@
+# Engineering Compliance Rules
+
+1. **Security & Secrets**: Never commit hardcoded API keys, tokens, or plaintext credentials.
+2. **Library Standards**: Do not use deprecated packages like `urllib2` or old `requests` patterns. Use modern clients like `httpx`.
+3. **Database Security**: Never construct SQL queries with raw string formatting or f-strings. Always use parameterized queries.
+4. **Code Quality**: All functions must include Python type annotations and concise docstrings.
